@@ -1,14 +1,14 @@
 ### Html01
-[bolds,italics](Q1.html)
+[bolds ,italics](Q1.html)
 
 ### Html02
-[ordered,unordered](Q2.html)
+[ordered ,unordered](Q2.html)
 
 ### Html03
 [images](Q3.html)
 
 ### Html04
-[internal,external linking](Q4.html)
+[internal ,external linking](Q4.html)
 
 ### Html05
 [table ex](Q5.html)
@@ -38,10 +38,10 @@
 [validate data](jv4.html)
 
 ### json 01
-[button clicks](json1.html)
+[button clicks ](json1.html)
 
 ### json 02
-[select elements using ID,class,elements name,attribute name](json2.html)
+[select elements using ID ,class ,elements name ,attribute name](json2.html)
 
 ### json 03
 [wwekend or not](json3.html)
