@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Department Page</title>
+
+    <style>
+
+    /* 1. ELEMENT SELECTOR */
+    body {
+        font-family: Arial;
+        margin: 0;
+        background-color: #f5f5f5;
+    }
+
+    /* 2. ID SELECTOR */
+    #header {
+        background-color: #ff99cc;
+        text-align: center;
+        padding: 15px;
+    }
+
+    /* 3. CLASS SELECTOR */
+    .navbar {
+        background-color: #333;
+    }
+
+    .navbar a {
+        color: white;
+        padding: 14px;
+        display: inline-block;
+        text-decoration: none;
+    }
+
+    /* 4. HOVER SELECTOR */
+    .navbar a:hover {
+        background-color: #ff66a3;
+    }
+
+    /* 5. DROPDOWN USING CLASS */
+    .dropdown {
+        display: inline-block;
+        position: relative;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #ffe6f0;
+        min-width: 150px;
+    }
+
+    .dropdown-content a {
+        display: block;
+        padding: 10px;
+        color: black;
+    }
+
+    /* 6. SHOW DROPDOWN ON HOVER */
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+
+    /* 7. CONTENT CLASS */
+    .content {
+        padding: 20px;
+    }
+
+    </style>
+
+</head>
+
+<body>
+
+<h1 align="center">CSS Demonstration</h1>
+<hr>
+
+<h2>Header (ID Selector)</h2>
+<div id="header">
+    Computer Science Department
+</div>
+
+<hr>
+
+<h2>Navigation Bar (Class + Hover + Dropdown)</h2>
+
+<div class="navbar">
+
+    <a href="#">Home</a>
+
+    <div class="dropdown">
+        <a href="#">Faculty</a>
+        <div class="dropdown-content">
+            <a href="#">Professors</a>
+            <a href="#">Assistant Professors</a>
+        </div>
+    </div>
+
+    <div class="dropdown">
+        <a href="#">Courses</a>
+        <div class="dropdown-content">
+            <a href="#">BSc CS</a>
+            <a href="#">MSc CS</a>
+        </div>
+    </div>
+
+</div>
+
+<hr>
+
+<h2>Content Section (Class Selector)</h2>
+<div class="content">
+    This page demonstrates use of CSS selectors, class, id, and dropdown menu.
+</div>
+
+</body>
+</html>

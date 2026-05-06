@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>jQuery Click Event</title>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script>
+    $(document).ready(function(){
+
+        $("#btn1").click(function(){
+            $("#text").text("Text changed using jQuery!");
+            $("#text").css("color", "red");
+        });
+
+        $("#btn2").click(function(){
+            $("#text").text("Now background is changed!");
+            $("#text").css({
+                "color": "white",
+                "background-color": "blue",
+                "padding": "10px"
+            });
+        });
+
+        $("#btn3").click(function(){
+            $("#text").text("Back to original!");
+            $("#text").css({
+                "color": "black",
+                "background-color": "transparent"
+            });
+        });
+
+    });
+    </script>
+
+</head>
+
+<body>
+
+<h2 id="text">Original Text</h2>
+
+<button id="btn1">Change Text & Color</button>
+<button id="btn2">Change Style</button>
+<button id="btn3">Reset</button>
+
+</body>
+</html>

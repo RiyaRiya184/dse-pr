@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>jQuery Events Demo</title>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script>
+    $(document).ready(function(){
+
+        // Focus + Blur on SAME textbox
+        $("#focusBlurBox").focus(function(){
+            $(this).css("background-color", "lightgreen");
+        });
+
+        $("#focusBlurBox").blur(function(){
+            $(this).css("background-color", "lightcoral");
+        });
+
+        // Change Event
+        $("#changeBox").change(function(){
+            alert("Text Changed!");
+        });
+
+        // Click Event
+        $("#clickBtn").click(function(){
+            alert("Button Clicked");
+        });
+
+        // Double Click Event
+        $("#dblBtn").dblclick(function(){
+            alert("Button Double Clicked");
+        });
+
+        // Submit Event
+        $("#form1").submit(function(){
+            alert("Form Submitted");
+        });
+
+    });
+    </script>
+
+</head>
+
+<body>
+
+<h1>jQuery Events Demonstration</h1>
+<hr>
+
+<!-- Focus + Blur -->
+<h2>1. Focus & Blur Event</h2>
+<input type="text" id="focusBlurBox" placeholder="Click and then leave me">
+<br><br>
+
+<!-- Change -->
+<h2>2. Change Event</h2>
+<input type="text" id="changeBox" placeholder="Change text and press Enter">
+<br><br>
+
+<!-- Click -->
+<h2>3. Click Event</h2>
+<button id="clickBtn">Click Me</button>
+<br><br>
+
+<!-- Double Click -->
+<h2>4. Double Click Event</h2>
+<button id="dblBtn">Double Click Me</button>
+<br><br>
+
+<!-- Submit -->
+<h2>5. Submit Event</h2>
+<form id="form1">
+    <input type="text" placeholder="Enter something">
+    <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>

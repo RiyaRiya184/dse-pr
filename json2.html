@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>jQuery Selectors Demo</title>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script>
+    $(document).ready(function(){
+
+        // ID selector
+        $("#btnId").click(function(){
+            $("#id1").css("color", "red");
+        });
+
+        // Class selector
+        $("#btnClass").click(function(){
+            $(".class1").css("background-color", "yellow");
+        });
+
+        // Element selector
+        $("#btnElement").click(function(){
+            $("p").css("font-weight", "bold");
+        });
+
+        // Attribute selector
+        $("#btnAttr").click(function(){
+            $("input[type='text']").css("border", "2px solid blue");
+        });
+
+    });
+    </script>
+
+</head>
+
+<body>
+
+<h1>jQuery Selectors Demonstration</h1>
+<hr>
+
+<h2>1. ID Selector</h2>
+<p id="id1">This is selected using ID</p>
+<button id="btnId">Apply ID Selector</button>
+
+<hr>
+
+<h2>2. Class Selector</h2>
+<p class="class1">This is class element 1</p>
+<p class="class1">This is class element 2</p>
+<button id="btnClass">Apply Class Selector</button>
+
+<hr>
+
+<h2>3. Element Selector</h2>
+<p>This paragraph will become bold</p>
+<button id="btnElement">Apply Element Selector</button>
+
+<hr>
+
+<h2>4. Attribute Selector</h2>
+<input type="text" placeholder="Type here">
+<br><br>
+<button id="btnAttr">Apply Attribute Selector</button>
+
+</body>
+</html>

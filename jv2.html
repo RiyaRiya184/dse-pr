@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculator</title>
+
+    <script>
+        function calculate(op) {
+            let a = parseInt(document.getElementById("num1").value);
+            let b = parseInt(document.getElementById("num2").value);
+            let result;
+
+            if (op == '+') result = a + b;
+            else if (op == '-') result = a - b;
+            else if (op == '*') result = a * b;
+            else if (op == '/') result = a / b;
+
+            alert("Result = " + result);
+        }
+    </script>
+
+</head>
+
+<body>
+
+<h2>Calculator</h2>
+
+Number 1: <input type="text" id="num1"><br><br>
+Number 2: <input type="text" id="num2"><br><br>
+
+<button onclick="calculate('+')">+</button>
+<button onclick="calculate('-')">−</button>
+<button onclick="calculate('*')">×</button>
+<button onclick="calculate('/')">÷</button>
+
+</body>
+</html>

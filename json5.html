@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mouse Events Demo</title>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <style>
+        body {
+            text-align: center;
+            padding-top: 100px;
+            background-color: white;
+            transition: background-color 0.5s;
+        }
+
+        a {
+            font-size: 22px;
+            text-decoration: none;
+            color: black;
+            padding: 10px 20px;
+            border: 2px solid black;
+        }
+    </style>
+
+    <script>
+    $(document).ready(function(){
+
+        $("#link").mouseover(function(){
+            $("body").css("background-color", "green");
+            $(this).text("I'm green now");
+        });
+
+        $("#link").mouseout(function(){
+            $("body").css("background-color", "red");
+            $(this).text("I'm red now");
+        });
+
+    });
+    </script>
+
+</head>
+
+<body>
+
+<h1>Mouse Event Demonstration</h1>
+<p>Hover over the link below:</p>
+
+<a id="link" href="https://ramanujancollege.ac.in" target="_blank">
+    It shows the mouse events
+</a>
+
+</body>
+</html>

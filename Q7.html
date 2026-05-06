@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Registration Form</title>
+
+    <script>
+        function showMessage() {
+            alert("Form submitted");
+            return false;  // prevents page refresh so message is visible
+        }
+    </script>
+
+</head>
+
+<body bgcolor="#f2f2ff">
+
+<h1 align="center">Student Registration Form</h1>
+<hr>
+
+<form onsubmit="return showMessage()">
+
+<h2>1. Text Box</h2>
+Name: <input type="text" placeholder="Enter your name"><br><br>
+
+<hr>
+
+<h2>2. Text Area</h2>
+Address:<br>
+<textarea rows="4" cols="30" placeholder="Enter your address"></textarea><br><br>
+
+<hr>
+
+<h2>3. Dropdown Box</h2>
+Course:
+<select>
+    <option>Select Course</option>
+    <option>BSc</option>
+    <option>BCA</option>
+    <option>BCom</option>
+</select><br><br>
+
+<hr>
+
+<h2>4. Radio Buttons</h2>
+Gender:
+<input type="radio" name="gender"> Male
+<input type="radio" name="gender"> Female<br><br>
+
+<hr>
+
+<h2>5. Checkboxes</h2>
+Hobbies:
+<input type="checkbox"> Reading
+<input type="checkbox"> Sports
+<input type="checkbox"> Music<br><br>
+
+<hr>
+
+<h2>6. Buttons</h2>
+<input type="submit" value="Submit">
+<input type="reset" value="Reset">
+
+</form>
+
+</body>
+</html>

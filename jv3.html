@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Textbox Focus Effect</title>
+
+    <script>
+        function focusStyle(x) {
+            x.style.backgroundColor = "#ffe6f0";
+            x.style.border = "2px solid #ff3399";
+        }
+
+        function blurStyle(x) {
+            x.style.backgroundColor = "white";
+            x.style.border = "1px solid gray";
+        }
+    </script>
+
+</head>
+
+<body>
+
+<h2>Textbox Focus Effect</h2>
+<hr>
+
+<p>Click inside any textbox to see the effect:</p>
+
+Name:
+<input type="text" 
+       onfocus="focusStyle(this)" 
+       onblur="blurStyle(this)">
+<br><br>
+
+Email:
+<input type="text" 
+       onfocus="focusStyle(this)" 
+       onblur="blurStyle(this)">
+<br><br>
+
+City:
+<input type="text" 
+       onfocus="focusStyle(this)" 
+       onblur="blurStyle(this)">
+
+</body>
+</html>
