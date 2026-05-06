@@ -1,53 +1,53 @@
 ### Html01
-[Html 01](Q1.html)
+[bolds,italics](Q1.html)
 
 ### Html02
-[Html 01](Q2.html)
+[ordered,unordered](Q2.html)
 
 ### Html03
-[Html 01](Q3.html)
+[images](Q3.html)
 
 ### Html04
-[Html 01](Q4.html)
+[internal,external linking](Q4.html)
 
 ### Html05
-[Html 01](Q5.html)
+[table ex](Q5.html)
 
 ### Html06
-[Html 01](Q6.html)
+[semantic tags ](Q6.html)
 
 ### Html07
-[Html 01](Q7.html)
+[registration form ](Q7.html)
 
 ### CSS 01
-[css](css1.html)
+[drop down menu styles,selectors,rules,ID,class](css1.html)
 
 ### CSS 02
-[css](css2.html)
+[change text,list,div](css2.html)
 
 ### javascript 01
-[jv](jv1.html)
+[multiplication table](jv1.html)
 
 ### javascript 02
-[jv](jv2.html)
+[operations](jv2.html)
 
 ### javascript 03
-[jv](jv3.html)
+[change bg](jv3.html)
 
 ### javascript 04
-[jv](jv4.html)
+[validate data](jv4.html)
 
 ### json 01
-[jso](json1.html)
+[button clicks](json1.html)
 
 ### json 02
-[jso](json2.html)
+[select elements using ID,class,elements name,attribute name](json2.html)
 
 ### json 03
-[jso](json3.html)
+[wwekend or not](json3.html)
 
 ### json 04
-[jso](json4.html)
+[blur,change,focus,click,dblclick,submit](json4.html)
 
 ### json 05
-[jso](json5.html)
+[mouseover and mouseout](json5.html)
